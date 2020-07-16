@@ -85,7 +85,7 @@ border-radius: 25px;
     width: 42%;
     left: 15px;
     margin: 4% 0 0 0;
-    line-height: 250%;
+    line-height: 200%;
     font-size: 1.1em;
     height: 8%;
 }
@@ -118,7 +118,6 @@ border-radius: 25px;
 }
 #photo{
     position: relative;
-    top:-100px;
     left: 12%;
     display: inline-block;
     width: 43%;
@@ -151,7 +150,6 @@ position: relative;
 left: -5%;
 background-color: white;
 width: 110%;
-height: 100%;
 }
 #Skills .firstSkill{
     margin-left: 1%;
@@ -176,7 +174,7 @@ height: 100%;
 #moreSkills{
     margin-top: -0.5%;
     width: 15%;
-    height: 9%;
+    height: 55px;
     font-weight: bold;
 }
 #more_1, #more_2, #more_3, #more_4, #more_5, #more_6, #more_7, #more_8,#more_9,#more_10,#more_11,#more_12{
@@ -202,11 +200,10 @@ height: 100%;
     display: inline-block;
     width: 29%;
     border-radius: 10px;
-    height: 130vh;
+    height: 105vh;
 }
 #Projects{
-    margin-top: -3%;
-    height: 330%;
+    height: 270%;
 }
 .project{
     overflow: auto;
@@ -225,16 +222,14 @@ height: 100%;
     display: block;
     padding: 10% 0 0 0;
     text-align: center;
-    line-height: 250%; 
+    line-height: 168.7%; 
     font-size: 1.2em;
 }
-.project .Description{
-    height: 350px;
-}
+
 #Projects .Description{
     text-align: left;
     padding: 7% 10% 5% 10%;
-    line-height: 250%;
+    line-height: 185.4%;
 }
 .Description a{
     text-decoration: none;
@@ -277,7 +272,7 @@ height: 100%;
     font-size: 1.2em;
     width: 62%;
     margin-left: 5%;
-    line-height: 200%;
+    line-height: 185.4%;
 }
 #contactLeft div a{
     color: #173E43;
@@ -294,8 +289,8 @@ height: 100%;
     opacity: 85%;
 }
 #submit{
-    background-color: #83E6E2;
-    border-color: #83E6E2;
+    background-color: #FAE596;
+    border-color: #fae596;
     border-radius: 5px;
     padding: 0 4% 0 4%;
 }
