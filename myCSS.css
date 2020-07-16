@@ -1,0 +1,373 @@
+body {
+	margin: 0;
+    color: #A06C52;
+}
+*:focus {
+    outline: 0 !important;
+}
+button{
+    cursor: pointer;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family:  'Raleway', sans-serif;
+    font-size: 15px;
+}
+button, input,h1,h2,h3{
+    font-family:  'Raleway', sans-serif;
+}
+.topnav {
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.topnav a {
+	float: right;
+	display: block;
+	color: #A06C52;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+    font-size: 15px;
+    width: 8%;
+}
+.topnav .active{
+    /* background-color: #A06C52;
+    color:white; */
+    padding-right: 0;;
+    border-radius: 25px;
+}
+/* .topnav .active:hover{
+  color: white;
+} */
+
+.topnav a:hover{
+    text-decoration: underline;
+  
+}
+
+.topnav .icon {
+    display: none;
+    font-size: 18px;
+}
+body{
+position: absolute;
+width: 90%;
+height: 10%;
+left: 5%;
+top: 30px;
+}
+#myName{
+font-family: 'Dancing Script', "Raleway", sans-serif;
+display: inline-block;
+font-size: 28px;
+padding: 14px 16px;
+border-radius: 25px;
+}
+#Profile{
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    left: 15px;
+    margin: 3% 0 0 0;
+    line-height: 250%;
+}
+#Profile button{
+    background-color: #A06C52;
+    color: #fff;
+    border-radius: 25px;
+    height: 30px;
+    padding: 0 2% 0 2%;
+}
+#Skills{
+position: relative;
+left: -5%;
+background-color: white;
+width: 110%
+}
+#Skills .firstSkill{
+    margin-left: 1%;
+}
+.sectionHeading{
+    display: block;
+    padding: 4% 0 0 0;
+    text-align: center;
+    font-size: 30px;
+}
+.btnSkill{
+    cursor: pointer;
+    background: none;
+    border:none;
+    padding:0;
+    color: #A06C52;
+    display: block;
+    font-weight: bolder;
+    margin: auto;
+}
+
+#more_1, #more_2, #more_3, #more_4, #more_5, #more_6, #more_7, #more_8,#more_9,#more_10,#more_11,#more_12{
+    display: none;
+}
+#Skills i{
+    display: block;
+    margin: 15% 0 0 0;
+    text-align: center;
+    color: black;
+    opacity: .7;
+}
+.Skill{
+    display: inline-block;
+    width: 24%;
+    margin: 0 0 5% 0;
+    vertical-align: top;
+}
+
+.project, .img{
+    background:#F2E8DF;
+    margin-top: 5%;
+    display: inline-block;
+    width: 29%;
+    border-radius: 10px;
+    height: 500px;
+}
+
+.project{
+    overflow: auto;
+}
+.subsectionHeading{
+    padding-top: 10%;
+    text-align: center;
+}
+.sectionHeading.Projects{
+    margin-bottom: -5%;
+}
+.Description{
+    display: block;
+    padding: 10% 0 0 0;
+    text-align: center;
+    line-height: 250%; 
+}
+.project .Description{
+    height: 350px;
+}
+#Projects .Description{
+    text-align: left;
+    padding: 7% 10% 5% 10%;
+    line-height: 250%;
+}
+.Description a{
+    text-decoration: none;
+    color: #A06C52;
+}
+.img{
+    background-color: #3B4D50;
+    display: inline-block;
+    width: 29%;
+    height: 500px;
+}
+#project2, #project4{
+    margin-left: 10%;
+}
+#project1, #project3{
+    margin-left: 1%;
+}
+.viewWork{
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    width: 15%;
+    height: 35px;
+    background-color: #A06C52;
+    border-radius: 5px;
+    color: #F2E8DF;
+    text-align: center;
+    font-size: 1.2em;
+}
+#Contact{
+    background: #F2E8DF;
+    margin-left: -5%;
+    width: 110%;
+    margin-top: 10%;
+}
+.sectionHeading.contact{
+    text-align: left;
+    padding-left: 5%;
+}
+#contactLeft{
+    display: inline-block;
+    width: 62%;
+    margin-left: 5%;
+    line-height: 200%;
+}
+#contactRight{
+    display: inline-block;
+    width: 22%;
+    margin-left: 5%;
+}
+#submit{
+    background-color: #A06C52;
+    border-radius: 5px;
+    color: #F2E8DF;
+    padding: 0 4% 0 4%;
+}
+#social{
+    margin: 2% 0 0 5%;
+}
+#social i{
+    margin-right: 2%;
+}
+#copyright{
+    padding: 1% 0 1% 0;
+    text-align: center;
+    font-size: 10px;
+}
+#moreSkillsContainer{
+    display: none;
+}
+#mobile{
+    display: none;
+}
+#desktop{
+    display: block;
+}
+.clickHere{
+    color: #A06C52;
+    /* text-decoration: none; */
+}
+.clickHere:hover{
+    text-decoration: underline;
+}
+#social a{
+    color: #A06C52;
+}
+
+@media screen and (max-width: 1200px) {
+    #mobile{
+        display: block;
+    }
+    #desktop{
+        display: none;
+    }
+	.topnav a {
+		display: none;
+	}
+	.topnav a.icon {
+		float: right;
+        display: block;
+	}
+	.topnav.responsive {
+        position: relative;
+    }
+    .topnav.topnav.responsive{
+        background-color: #3B4D50;
+        border-radius: 25px;
+    }
+	.topnav.responsive .icon {
+		position: absolute;
+		right: 0;
+        top: 0;
+        color: #F2E8DF;
+        background-color: #3B4D50;
+        border-radius: 25px 25px 0px 0px;
+        height: 25px;
+        font-size: 18px;
+	}
+	.topnav.responsive a:not(.icon) {
+		float: none;
+		display: block;
+        text-align: left;
+        width: 24%;
+        color: #F2E8DF;
+    }
+    .topnav.responsive #NameContainer{
+        background: #fff;
+        display: inline-block;
+        font-size: 15px;
+        width: 100%;
+    
+    }
+    .topnav.responsive #myName{
+        border-radius: 25px 25px 0 0;
+    }
+    .topnav.responsive a:hover{
+    text-decoration: underline;
+    }
+    .topnav.responsive .active{
+    background-color: transparent;
+    color:#E5D5C5 ;
+    border-radius: 0;
+    font-size: 15px;
+    font-weight: normal;
+    }
+.Skill{
+    width: 99%;   
+}
+.sectionHeading.headingSkills{
+    padding-top: 10%;
+    margin-bottom: -2%;
+}
+.Description{
+    padding: 4% 0 0 0;
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 300%;
+}
+#Profile{
+width: 80%;
+}
+.img{
+    display: none;
+}
+.project{
+    overflow: unset;
+    width: 90%;
+    height: auto;
+    box-shadow: 2px 5px 15px;
+    margin-top: 10%;
+}
+#Skills i{
+    margin-top: 5%;
+}
+.firstSkill{
+    padding-top: 10%;
+}
+.project .Description{
+    height: auto;
+    margin: auto;
+}
+#project1, #project2, #project3, #project4{
+      margin-left: 5%;
+      margin-right: 5%;
+}
+.Description a{
+    position: relative;
+    bottom: 15px;
+}
+.viewWork{
+    width: auto;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+#Contact{
+    background-color: unset;
+}
+#contactLeft{
+    display: block;
+    width: 80%;
+}
+#contactRight{
+    margin-top: 3%;
+    line-height: 150%;
+    width: 80%;
+}
+#social i{
+    margin-right: 5%;
+}
+#Profile button{
+    padding: 0 3% 0 3%;
+}
+.viewWork{
+    padding: 0 4% 0 4%;
+}
+}
