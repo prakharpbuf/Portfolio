@@ -1,18 +1,25 @@
 body {
 	margin: 0;
-    color: #A06C52;
+    color: #173E43;
 }
 *:focus {
     outline: 0 !important;
 }
+.para, .Description{
+    opacity: 85%;
+}
 button{
     cursor: pointer;
+    background-color: #FAE596;
+    color: #173E43;
+    border-color: #fae596;
+    box-shadow: 4px 4px 10px rgba(59, 77, 80, 0.43);
 }
 html,body{
     height: 100%;
     width: 100%;
     font-family:  'Raleway', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
 }
 button, input,h1,h2,h3{
     font-family:  'Raleway', sans-serif;
@@ -25,18 +32,22 @@ button, input,h1,h2,h3{
 .topnav a {
 	float: right;
 	display: block;
-	color: #A06C52;
+	color: #173E43;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 10px;
 	text-decoration: none;
-    font-size: 15px;
+    font-size: 1.23em;
+    line-height: 23px;
+    font-weight: 500;
     width: 8%;
 }
 .topnav .active{
     /* background-color: #A06C52;
     color:white; */
-    padding-right: 0;;
-    border-radius: 25px;
+    background-color: #FAE596;
+    border-radius: 10px;
+    margin-right: 2%;
+    box-shadow: 4px 4px 10px rgba(59, 77, 80, 0.43);
 }
 /* .topnav .active:hover{
   color: white;
@@ -51,40 +62,96 @@ button, input,h1,h2,h3{
     display: none;
     font-size: 18px;
 }
+header{
+    display:table;
+    height: 105%;
+}
 body{
 position: absolute;
 width: 90%;
-height: 10%;
 left: 5%;
 top: 30px;
 }
 #myName{
 font-family: 'Dancing Script', "Raleway", sans-serif;
 display: inline-block;
-font-size: 28px;
+font-size: 2em;
 padding: 14px 16px;
 border-radius: 25px;
 }
 #Profile{
     display: inline-block;
     position: relative;
-    width: 50%;
+    width: 42%;
     left: 15px;
-    margin: 3% 0 0 0;
+    margin: 4% 0 0 0;
     line-height: 250%;
+    font-size: 1.1em;
+    height: 8%;
 }
 #Profile button{
-    background-color: #A06C52;
-    color: #fff;
-    border-radius: 25px;
-    height: 30px;
+    font-weight: bold;
+    margin-top: 7%;
+    border-radius: 8px;
+    font-size: 1.15em;
+    height: 120%;
+    width: 50% ;
     padding: 0 2% 0 2%;
 }
+#photoYellow{
+    position: absolute;
+    top: -35%;
+    left: -5%;
+    z-index: -1;
+    background-color: #fae596;
+    width: 95%;
+    height: 490%;
+}
+#photoBlue{
+    position: absolute;
+    left: 10%;
+    top:70%;
+    z-index: -1;
+    background-color: #83E6E2;
+    width: 95%;
+    height: 510%;
+}
+#photo{
+    position: relative;
+    top:-100px;
+    left: 12%;
+    display: inline-block;
+    width: 43%;
+    height: 10%;
+}
+#photo img{
+    width: 100%;
+}
+#Certificates{
+    margin-top: 10%;
+    color: #FAE596;
+    background-color: #173E43;
+    height:60% ;
+    position: relative;
+    left: -5%;
+    width: 110%;
+}
+#certificatesBtn{
+    width: 14%;
+    font-size: 1.2em;
+    height: 15%;
+    border-radius: 10px;
+    font-weight: bolder;
+    display: block;
+    margin:5% auto;
+}
 #Skills{
+margin-top: 8%;
 position: relative;
 left: -5%;
 background-color: white;
-width: 110%
+width: 110%;
+height: 100%;
 }
 #Skills .firstSkill{
     margin-left: 1%;
@@ -93,19 +160,25 @@ width: 110%
     display: block;
     padding: 4% 0 0 0;
     text-align: center;
-    font-size: 30px;
+    font-size: 3em;
 }
 .btnSkill{
     cursor: pointer;
     background: none;
     border:none;
     padding:0;
-    color: #A06C52;
+    font-size: 1.2em;
+    box-shadow: none;
     display: block;
     font-weight: bolder;
     margin: auto;
 }
-
+#moreSkills{
+    margin-top: -0.5%;
+    width: 15%;
+    height: 9%;
+    font-weight: bold;
+}
 #more_1, #more_2, #more_3, #more_4, #more_5, #more_6, #more_7, #more_8,#more_9,#more_10,#more_11,#more_12{
     display: none;
 }
@@ -124,29 +197,36 @@ width: 110%
 }
 
 .project, .img{
-    background:#F2E8DF;
+    background:#83E6E2;
     margin-top: 5%;
     display: inline-block;
     width: 29%;
     border-radius: 10px;
-    height: 500px;
+    height: 130vh;
 }
-
+#Projects{
+    margin-top: -3%;
+    height: 330%;
+}
 .project{
     overflow: auto;
+}
+.project span a{
+    color: #173E43;
 }
 .subsectionHeading{
     padding-top: 10%;
     text-align: center;
 }
 .sectionHeading.Projects{
-    margin-bottom: -5%;
+    margin-bottom: -1%;
 }
 .Description{
     display: block;
     padding: 10% 0 0 0;
     text-align: center;
     line-height: 250%; 
+    font-size: 1.2em;
 }
 .project .Description{
     height: 350px;
@@ -158,13 +238,11 @@ width: 110%
 }
 .Description a{
     text-decoration: none;
-    color: #A06C52;
 }
 .img{
     background-color: #3B4D50;
     display: inline-block;
     width: 29%;
-    height: 500px;
 }
 #project2, #project4{
     margin-left: 10%;
@@ -176,19 +254,19 @@ width: 110%
     display: block;
     margin: auto;
     margin-top: 5%;
-    width: 15%;
     height: 35px;
-    background-color: #A06C52;
     border-radius: 5px;
-    color: #F2E8DF;
+    color: #173E43;
     text-align: center;
     font-size: 1.2em;
+    width: 18%;
+    height: 3%;
+    font-weight: bold;
 }
 #Contact{
-    background: #F2E8DF;
     margin-left: -5%;
     width: 110%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .sectionHeading.contact{
     text-align: left;
@@ -196,23 +274,34 @@ width: 110%
 }
 #contactLeft{
     display: inline-block;
+    font-size: 1.2em;
     width: 62%;
     margin-left: 5%;
     line-height: 200%;
+}
+#contactLeft div a{
+    color: #173E43;
+    font-weight: bold;
 }
 #contactRight{
     display: inline-block;
     width: 22%;
     margin-left: 5%;
+    font-size: 1.2em;
+}
+#social span a{
+    color: #173E43;
+    opacity: 85%;
 }
 #submit{
-    background-color: #A06C52;
+    background-color: #83E6E2;
+    border-color: #83E6E2;
     border-radius: 5px;
-    color: #F2E8DF;
     padding: 0 4% 0 4%;
 }
 #social{
     margin: 2% 0 0 5%;
+    font-size: 1.5em;
 }
 #social i{
     margin-right: 2%;
@@ -220,7 +309,7 @@ width: 110%
 #copyright{
     padding: 1% 0 1% 0;
     text-align: center;
-    font-size: 10px;
+    font-size: 12px
 }
 #moreSkillsContainer{
     display: none;
