@@ -44,6 +44,12 @@ function test_input($data){
             <i id="Hamburger" class="fa fa-bars"></i>
         </a>
     </div>
+    <section id="photo">
+        <div id='photoYellow'></div>
+        <div id='photoBlue'></div>
+        <img src="photo.jpg" alt="Prakhar's photo">
+    </section>
+    <div id="gap"><br><br><br><br></div>
     <section id="Profile">
         <h1>
             <strong style="line-height:53px; font-weight:500">Hi, I'm Prakhar Paw...</strong>
@@ -55,13 +61,9 @@ A ridiculously quick learner who is always looking to learn and master new skill
         </span> <br>
         <button id="knowMore">Download resume</button> &nbsp; <strong>(PDF)</strong>
     </section>
-    <section id="photo">
-        <div id='photoYellow'></div>
-        <div id='photoBlue'></div>
-        <img src="photo.jpg" alt="Prakhar's photo">
-    </section>
     </header>
     <section id="Certificates">
+        <br>
         <h1 class="sectionHeading"><strong>My Certificates</strong></h1>&nbsp;
         <button id='certificatesBtn'>See All</button>
         <br>

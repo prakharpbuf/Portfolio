@@ -85,7 +85,7 @@ border-radius: 25px;
     line-height: 200%;
     font-size: 1.1em;
 }
-#Profile button{
+#knowMore{
     font-weight: bold;
     margin-top: 7%;
     border-radius: 8px;
@@ -114,19 +114,22 @@ border-radius: 25px;
 }
 #photo{
     position: relative;
-    left: 12%;
+    top:70px;
+    right:20px;
     display: inline-block;
     width: 43%;
     height: 350px;
+    float: right;
 }
 #photo img{
     width: 100%;
     height: 100%;
 
 }
+#gap{
+    display: none;
+}
 #Certificates{
-    padding-top: 1px;
-    padding-bottom: -1px;
     margin-top: 10%;
     color: #FAE596;
     background-color: #173E43;
@@ -313,16 +316,11 @@ width: 110%;
 #desktop{
     display: block;
 }
-.clickHere{
-    color: #A06C52;
-    /* text-decoration: none; */
-}
+
 .clickHere:hover{
     text-decoration: underline;
 }
-#social a{
-    color: #A06C52;
-}
+
 
 @media screen and (max-width: 1200px) {
     #mobile{
@@ -342,16 +340,16 @@ width: 110%;
         position: relative;
     }
     .topnav.topnav.responsive{
-        background-color: #3B4D50;
-        border-radius: 25px;
+        background-color: #173E43;
+        border-radius: 15px;
     }
 	.topnav.responsive .icon {
 		position: absolute;
 		right: 0;
         top: 0;
-        color: #F2E8DF;
-        background-color: #3B4D50;
-        border-radius: 25px 25px 0px 0px;
+        color: #fae596;
+        background-color: #173E43;
+        border-radius: 15px 15px 0px 0px;
         height: 25px;
         font-size: 18px;
 	}
@@ -360,7 +358,7 @@ width: 110%;
 		display: block;
         text-align: left;
         width: 24%;
-        color: #F2E8DF;
+        color: #FAE596;
     }
     .topnav.responsive #NameContainer{
         background: #fff;
@@ -370,20 +368,59 @@ width: 110%;
     
     }
     .topnav.responsive #myName{
-        border-radius: 25px 25px 0 0;
+        border-radius: 15px 15px 0 0;
     }
     .topnav.responsive a:hover{
     text-decoration: underline;
     }
     .topnav.responsive .active{
     background-color: transparent;
-    color:#E5D5C5 ;
+    color:#FAE596 ;
+    box-shadow: none;
     border-radius: 0;
-    font-size: 15px;
     font-weight: normal;
     }
+#photo{
+    height:250px;
+    width: 65%;
+    display: block;
+    float: none;
+    margin: auto;
+    top:20;
+    right: 0;
+}
+#photoYellow{
+display: block;
+width: 90%;
+left: -20px;
+height: 240px;
+}
+#photoBlue{
+    width: 95%;
+    display: block;
+    height: 220px;
+    left:35px;
+    top:50px;
+}
+#profile{
+    position: static;
+    display: block;
+}
+#gap{
+    display: block;
+}
+#knowMore{
+    width: 65%;
+}
+
 .Skill{
     width: 99%;   
+}
+#Certificates{
+    margin-top: 30%;
+}
+#certificatesBtn{
+    width: 40%;
 }
 .sectionHeading.headingSkills{
     padding-top: 10%;
@@ -411,8 +448,18 @@ width: 80%;
 #Skills i{
     margin-top: 5%;
 }
+#Skills{
+margin-top: 25%;
+}
+#moreSkills{
+width: 40%;
+margin-top: 5%;
+}
 .firstSkill{
     padding-top: 10%;
+}
+.sectionHeading.projects{
+    width: 100%;
 }
 .project .Description{
     height: auto;
@@ -452,4 +499,13 @@ width: 80%;
 .viewWork{
     padding: 0 4% 0 4%;
 }
+}
+
+@media screen and (min-width:750px) and (max-width:1200px){
+    #photoBlue{
+        width: 98%;
+    }
+    #photo{
+        width: 50%;
+    }
 }
