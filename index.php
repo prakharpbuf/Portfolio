@@ -59,7 +59,7 @@ An extremely enthusiastic student, currently enrolled at SUNY at Buffalo class o
 A ridiculously quick learner who is always looking to learn and master new skills. 
 
         </span> <br>
-        <button id="knowMore">Download resume</button> &nbsp; <strong>(PDF)</strong>
+        <button id="knowMore">Download resume</button>
     </section>
     </header>
     <section id="Certificates">
