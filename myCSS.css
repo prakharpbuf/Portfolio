@@ -62,10 +62,7 @@ button, input,h1,h2,h3{
     display: none;
     font-size: 18px;
 }
-header{
-    display:table;
-    height: 105%;
-}
+
 body{
 position: absolute;
 width: 90%;
@@ -87,50 +84,52 @@ border-radius: 25px;
     margin: 4% 0 0 0;
     line-height: 200%;
     font-size: 1.1em;
-    height: 8%;
 }
 #Profile button{
     font-weight: bold;
     margin-top: 7%;
     border-radius: 8px;
     font-size: 1.15em;
-    height: 120%;
+    height: 50px;
     width: 50% ;
     padding: 0 2% 0 2%;
 }
 #photoYellow{
     position: absolute;
-    top: -35%;
+    top: -20px;
     left: -5%;
     z-index: -1;
     background-color: #fae596;
     width: 95%;
-    height: 490%;
+    height: 320px;
 }
 #photoBlue{
     position: absolute;
+    top:40px;
     left: 10%;
-    top:70%;
     z-index: -1;
     background-color: #83E6E2;
     width: 95%;
-    height: 510%;
+    height: 330px;
 }
 #photo{
     position: relative;
     left: 12%;
     display: inline-block;
     width: 43%;
-    height: 10%;
+    height: 350px;
 }
 #photo img{
     width: 100%;
+    height: 100%;
+
 }
 #Certificates{
+    padding-top: 1px;
+    padding-bottom: -1px;
     margin-top: 10%;
     color: #FAE596;
     background-color: #173E43;
-    height:60% ;
     position: relative;
     left: -5%;
     width: 110%;
@@ -138,11 +137,12 @@ border-radius: 25px;
 #certificatesBtn{
     width: 14%;
     font-size: 1.2em;
-    height: 15%;
     border-radius: 10px;
     font-weight: bolder;
     display: block;
+    height: 50px;
     margin:5% auto;
+    
 }
 #Skills{
 margin-top: 8%;
@@ -200,11 +200,9 @@ width: 110%;
     display: inline-block;
     width: 29%;
     border-radius: 10px;
-    height: 105vh;
+    height: 650px;
 }
-#Projects{
-    height: 270%;
-}
+
 .project{
     overflow: auto;
 }
@@ -255,7 +253,7 @@ width: 110%;
     text-align: center;
     font-size: 1.2em;
     width: 18%;
-    height: 3%;
+    height: 50px;
     font-weight: bold;
 }
 #Contact{

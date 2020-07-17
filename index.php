@@ -62,8 +62,12 @@ A ridiculously quick learner who is always looking to learn and master new skill
     </section>
     </header>
     <section id="Certificates">
-        <h1 class="sectionHeading"><strong>My Certificates</strong></h1>
+        <h1 class="sectionHeading"><strong>My Certificates</strong></h1>&nbsp;
         <button id='certificatesBtn'>See All</button>
+        <br>
+        <br>
+        <br>
+        <br>
     </section>
     <script>
         function expand(sec){
