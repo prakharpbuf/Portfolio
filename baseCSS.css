@@ -1,0 +1,227 @@
+body {
+	margin: 0;
+    color: #173E43;
+}
+*:focus {
+    outline: 0 !important;
+}
+.para, .Description{
+    opacity: 85%;
+}
+button{
+    cursor: pointer;
+    background-color: #FAE596;
+    color: #173E43;
+    border-color: #fae596;
+    box-shadow: 4px 4px 10px rgba(59, 77, 80, 0.43);
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family:  'Raleway', sans-serif;
+    font-size: 16px;
+}
+button, input,h1,h2,h3{
+    font-family:  'Raleway', sans-serif;
+}
+.topnav {
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.topnav a {
+	float: right;
+	display: block;
+	color: #173E43;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+    font-size: 1.23em;
+    line-height: 23px;
+    font-weight: 500;
+    width: 8%;
+}
+.topnav .active{
+    /* background-color: #A06C52;
+    color:white; */
+    background-color: #FAE596;
+    border-radius: 10px;
+    margin-right: 2%;
+    box-shadow: 4px 4px 10px rgba(59, 77, 80, 0.43);
+}
+/* .topnav .active:hover{
+  color: white;
+} */
+
+.topnav a:hover{
+    text-decoration: underline;
+}
+
+.topnav .icon {
+    display: none;
+    font-size: 18px;
+}
+
+body{
+position: absolute;
+width: 90%;
+left: 5%;
+top: 30px;
+}
+#myName{
+font-family: 'Dancing Script', "Raleway", sans-serif;
+display: inline-block;
+font-size: 2em;
+padding: 14px 16px;
+border-radius: 25px;
+}
+.subsectionHeading{
+    padding-top: 10%;
+    text-align: center;
+}
+.sectionHeading{
+    display: block;
+    padding: 4% 0 0 0;
+    text-align: center;
+    font-size: 3em;
+}
+#Contact{
+    margin-left: -5%;
+    width: 110%;
+    margin-top: 5%;
+}
+.sectionHeading.contact{
+    text-align: left;
+    padding-left: 5%;
+}
+#contactLeft{
+    display: inline-block;
+    font-size: 1.2em;
+    width: 62%;
+    margin-left: 5%;
+    line-height: 185.4%;
+}
+#contactLeft div a{
+    color: #173E43;
+    font-weight: bold;
+}
+#contactRight{
+    display: inline-block;
+    width: 22%;
+    margin-left: 5%;
+    font-size: 1.2em;
+}
+#social span a{
+    color: #173E43;
+    opacity: 85%;
+}
+#submit{
+    background-color: #FAE596;
+    border-color: #fae596;
+    border-radius: 5px;
+    padding: 0 4% 0 4%;
+}
+#social{
+    margin: 2% 0 0 5%;
+    font-size: 1.5em;
+}
+#social i{
+    margin-right: 2%;
+}
+#copyright{
+    padding: 1% 0 1% 0;
+    text-align: center;
+    font-size: 12px
+}
+#mobile{
+    display: none;
+}
+#desktop{
+    display: block;
+}
+.clickHere:hover{
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 1200px) {
+	.topnav a {
+        display: none;
+        font-size: 1em;
+	}
+	.topnav a.icon {
+		float: right;
+        display: block;
+	}
+	.topnav.responsive {
+        position: relative;
+    }
+    .topnav.topnav.responsive{
+        background-color: #173E43;
+        border-radius: 15px;
+    }
+	.topnav.responsive .icon {
+		position: absolute;
+		right: 0;
+        top: 0;
+        color: #fae596;
+        background-color: #173E43;
+        border-radius: 15px 15px 0px 0px;
+        height: 25px;
+        font-size: 18px;
+	}
+	.topnav.responsive a:not(.icon) {
+		float: none;
+		display: block;
+        text-align: left;
+        width: 24%;
+        color: #FAE596;
+    }
+    .topnav.responsive #NameContainer{
+        background: #fff;
+        display: inline-block;
+        font-size: 15px;
+        width: 100%;
+    
+    }
+    .topnav.responsive #myName{
+        border-radius: 15px 15px 0 0;
+    }
+    .topnav.responsive a:hover{
+    text-decoration: underline;
+    }
+    .topnav.responsive .active{
+    background-color: transparent;
+    color:#FAE596 ;
+    box-shadow: none;
+    border-radius: 0;
+    font-weight: normal;
+    }
+#Contact{
+    margin-top: 25%;
+    background-color: unset;
+}
+#mobile{
+    display: block;
+}
+#desktop{
+    display: none;
+}
+#contactLeft{
+    display: block;
+    width: 80%;
+}
+#contactRight{
+    margin-top: 3%;
+    line-height: 150%;
+    width: 80%;
+}
+#social i{
+    margin-right: 5%;
+}
+}
+@media screen and (min-width:750px) and (max-width:1200px){
+    #Contact{
+        margin-top: 5%;
+    }
+}

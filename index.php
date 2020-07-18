@@ -2,15 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/26b935012c.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="myCSS.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <script src="myJS.js"></script>
+    <link rel="stylesheet" href="baseCSS.css">
+    <link rel="stylesheet" href="mainCSS.css">
     <title>Prakhar Paw</title>
 </head>
 <body>
@@ -115,7 +117,6 @@ A ridiculously quick learner who is always looking to learn and master new skill
     </div>
     <button id='moreSkills' class='viewWork' onclick='showMoreSkills()'>View More &darr;</button>
 
-    <script src="myJS.js"></script>
 
     </section>
     <br><br> <br><br>
@@ -127,7 +128,7 @@ A ridiculously quick learner who is always looking to learn and master new skill
             <span class="Description">
            Assisted in building and upgrading the network system in the school campus, led a session on beginner networking concepts for students and cybersecurity best practices for employees, and assisted in the implementation of security systems.
             <br> <br>
-            <a href=""><strong>READ MORE&nbsp;</strong> <i class="fas fa-arrow-right"></i></a>
+            <a href="exp.php#LaSagesse"><strong>READ MORE&nbsp;</strong> <i class="fas fa-arrow-right"></i></a>
             <br> 
             </span>
         </div>
@@ -164,11 +165,11 @@ A ridiculously quick learner who is always looking to learn and master new skill
             <span class="Description">
                 Outlined a graphics editor application with create, edit, save, select, zoom, group, and clipboard functionality using OOP for logic and StarUML for design and made this application interactive using SQL and C++ to manage data.
                 <br> <br> <br> 
-                <a href=""><strong>READ MORE&nbsp;</strong> <i class="fas fa-arrow-right"></i></a>
+                <a href="exp.php#SDOOP"><strong>READ MORE&nbsp;</strong> <i class="fas fa-arrow-right"></i></a>
                 <br>
             </span>
         </div>
-        <button class="viewWork" onclick="window.location.href=''">View work &rarr;</button>
+        <button class="viewWork" onclick="window.location.href='exp.php'">View work &rarr;</button>
     </section>
     <footer id="Contact">
         <h1 class="sectionHeading contact"><strong>Get in touch...</strong></h1>

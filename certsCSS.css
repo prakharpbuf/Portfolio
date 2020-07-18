@@ -1,0 +1,9 @@
+.sectionHeading{
+    font-weight: bold;
+}
+.grid-container{
+display: grid;
+grid-template-columns: auto auto;
+column-gap: 2%;
+margin-top: 12%;
+}

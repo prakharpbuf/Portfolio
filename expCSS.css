@@ -1,0 +1,72 @@
+.grid-container{
+    margin-top: 12%;
+    display: grid;
+    row-gap: 5%;
+    grid-template-rows: 700px;
+}
+.subsectionHeading{
+    padding-top: 0;
+    font-size: 2em;
+    padding-bottom:5% ;
+    font-weight: bold;
+}
+.sectionHeading{
+    font-weight: bold;
+}
+.flex-container{
+    align-content: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 100%;
+    width: 100%;
+    box-shadow: 1px 1px 10px;
+}
+.image{
+    padding: 8% 0 0 1%;
+    height: 70%;
+    display: inline-block;
+    width: 40%;
+}
+[alt~=SDOOP]{
+    padding: 10% 2% 0 0;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+}
+.para{
+    font-size: 1.1em;
+    opacity: 1;
+    display: inline-block;
+    width: 60%;
+    margin-top: 5%;
+    padding-right: 1%;
+    line-height: 35px;
+}
+.text{
+    height: 100%;
+    width: 100%;
+}
+.blue{
+    background-color: #83E6E2;
+    z-index: -1;
+    height: 690px;
+    width: 100%;
+    position: relative;
+    top: 40px;
+    left: 30px;
+} 
+.yellow{
+    background-color: #FAE596;
+    z-index: -1;
+    height: 690px;
+    width: 100%;
+    position: relative;
+    top: 40px;
+    right: 30px;
+} 
+.grid-item, .blue, .yellow{
+    grid-area: 1/1;
+}
