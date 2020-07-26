@@ -24,14 +24,24 @@
     box-shadow: 1px 1px 10px;
 }
 .image{
-    padding: 8% 0 0 1%;
-    height: 70%;
+    padding: 15% 0 0 1%;
+    height: 60%;
     display: inline-block;
-    width: 40%;
+    width: 35%;
+    margin-right: 4%;
 }
-[alt~=SDOOP]{
-    padding: 10% 2% 0 0;
+.citation{
+    margin-top: 4%;
+    text-align: center;
+
 }
+.subsectionHeading.desktop{
+    display: block;
+}
+.subsectionHeading.mobile{
+    display: none;
+}
+
 .image img{
     height: 100%;
     width: 100%;
@@ -69,4 +79,42 @@
 } 
 .grid-item, .blue, .yellow{
     grid-area: 1/1;
+}
+
+@media screen and (max-width:1200px){
+.grid-container{
+    grid-template-rows: auto auto;
+}
+.flex-container{
+    box-shadow: none;
+    display: block;
+}
+.subsectionHeading.mobile{
+    display: block;
+}
+.subsectionHeading.desktop{
+    display: none;
+}
+.image, .para{
+    width: 90%;
+}
+.image{
+    padding: 6% 0 10% 0;
+    margin: unset;
+}
+.subsectionHeading{
+    font-size: 1.7em;
+    padding-top: 10%;
+    text-align: left;
+}
+.sectionHeading{
+    padding-top: 15%;
+    font-size: 2em;
+}
+#Contact{
+    margin-top: 5%;
+}
+.yellow, .blue{
+    height: 40%;
+}
 }

@@ -42,10 +42,10 @@ function test_input($data){
         <div class="topnav" id="myTopnav">
             <span id="NameContainer"><span id="myName"><strong>Prakhar</strong></span></span>
             <a href="mailto:prakhar.paw08@gmail.com" class="active">Email</a>
-            <a href="#Projects">Projects</a>
-            <a href="#Skills" style="margin-right:-2%">Skills</a>
-            <a href="#Certificates">Certificates</a>
-            <a href="#Profile">Home</a>
+            <a href="index.php#Projects">Projects</a>
+            <a href="index.php#Skills" style="margin-right:-2%">Skills</a>
+            <a href="index.php#Certificates">Certificates</a>
+            <a href="index.php#Profile">Home</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i id="Hamburger" class="fa fa-bars"></i>
             </a>
@@ -64,11 +64,15 @@ function test_input($data){
         </div>
         <div class="grid-item" id="LaSagesse">
             <div class="flex-container">
+                <div class="subsectionHeading mobile">
+                    La Sagesse School, Indore
+                </div>
                 <div class="image">
-                    <img src="LaSagesse.png" alt="pro School Photo">
+                    <img src="LaSagesse.png" alt="project School Photo">
+                    <div class='citation'>La Sagesse School</div>
                 </div>
                 <div class="para">
-                    <div class="subsectionHeading">
+                    <div class="subsectionHeading desktop">
                         La Sagesse School, Indore
                     </div>
                     <div class="text">
@@ -93,11 +97,16 @@ function test_input($data){
             </div>
             <div class="grid-item" id="SDOOP">
                 <div class="flex-container">
+                    <div class="subsectionHeading mobile">
+                        <br>
+                        SDOOP and DBMS
+                    </div>
                     <div class="image">
-                        <img src="SDOOP.jpg" alt="pro SDOOP">
+                        <img src="SDOOP.jpg" alt="project SDOOP">
+                        <div class="citation">Class diagram</div>
                     </div>
                     <div class="para">
-                        <div class="subsectionHeading">
+                        <div class="subsectionHeading desktop">
                             <br>
                             SDOOP and DBMS
                         </div>

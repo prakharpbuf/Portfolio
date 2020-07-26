@@ -57,8 +57,9 @@ function test_input($data){
             <strong style="line-height:53px; font-weight:500">Hi, I'm Prakhar Paw...</strong>
         </h1>
         <span class="para">
-An extremely enthusiastic student, currently enrolled at SUNY at Buffalo class of '21. Having a very strong base in Computer Science, I am looking for a job in IT/Cybersecurity while I work towards achieving more and more relevant skills and certifications.
-A ridiculously quick learner who is always looking to learn and master new skills. 
+An extremely enthusiastic student enrolled at SUNY at Buffalo. Having a very strong base in Computer Science with an interest in IT/Cybersecurity, I am working towards achieving more and more relevant experience, skills, and certifications.
+<br> A ridiculously quick learner who is always looking to learn and master new skills. 
+
 
         </span> <br>
         <button id="knowMore">Download resume</button>
@@ -67,7 +68,7 @@ A ridiculously quick learner who is always looking to learn and master new skill
     <section id="Certificates">
         <br>
         <h1 class="sectionHeading"><strong>My Certificates</strong></h1>&nbsp;
-        <button id='certificatesBtn'>See All</button>
+        <button id='certificatesBtn' onclick='window.location.href="certs.php"'>See All</button>
         <br>
         <br>
         <br>
@@ -115,7 +116,7 @@ A ridiculously quick learner who is always looking to learn and master new skill
     <div class="Skill"><i class="icon fas fa-code fa-2x"></i><span class="Description"><strong>Structured Query Language</strong> <br>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut tellus ac ligula<span id='dots_12'>....</span> <span id='more_12'>mattis rutrum vel et massa. Class aptent
     taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</span></span> <br><button onclick="expand(this)" id='button_12' class='btnSkill'>Read More &darr;</button></div>
     </div>
-    <button id='moreSkills' class='viewWork' onclick='showMoreSkills()'>View More &darr;</button>
+    <button id='moreSkills' class='viewWork' onclick='showMoreSkills(); window.location.href="#Skills";'>View More &darr;</button>
 
 
     </section>

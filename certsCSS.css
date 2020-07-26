@@ -1,9 +1,49 @@
 .sectionHeading{
     font-weight: bold;
+    row-gap: 5%;
+}
+.subsectionHeading{
+    font-weight: bold;
+    font-size: 1.4em;
+    margin: auto;
 }
 .grid-container{
-display: grid;
-grid-template-columns: auto auto;
-column-gap: 2%;
-margin-top: 12%;
+    display: grid;
+    grid-template-columns: 35% 55%;
+    column-gap: 10%;
+    margin-top: 12%;
+}
+
+.grid-item.text{
+    line-height: 175%;
+    font-size: 1.1em;
+}
+.grid-item.text div{
+    width: 100%;
+}
+.grid-item img{
+    width: 100%;
+    height: 100%;
+}
+
+.blue{
+    background-color: #83E6E2;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top:20px;
+    right: 30px;
+} 
+.yellow{
+    background-color: #FAE596;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 20px;
+    left: 30px;
+} 
+.grid-item.certificate, .blue, .yellow{
+    grid-area: 1/1;
 }
